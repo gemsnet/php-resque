@@ -39,7 +39,7 @@ class Resque_Worker
 	/**
 	 * @var string String identifying this worker.
 	 */
-	private $id;
+	public $id;
 
 	/**
 	 * @var Resque_Job Current job, if any, being processed by this worker.
